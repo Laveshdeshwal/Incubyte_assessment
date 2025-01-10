@@ -40,7 +40,6 @@ class StringCalculator:
             # Handle negative numbers
             if negatives:
                 print(f"Negative numbers not allowed: {', '.join(map(str, negatives))}")
-
             return total
         except Exception as e:
             print("Unexpected condition occurred " + str(e))
