@@ -10,7 +10,6 @@ class StringCalculator:
         try:
             if not numbers:
                 return 0
-
             # Default delimiters: comma and newline
             delimiters = [",", "\n"]
             custom_delimiter_pattern = r"^//(.+)\n"
